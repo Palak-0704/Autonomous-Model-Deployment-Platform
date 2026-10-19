@@ -1,0 +1,376 @@
+{
+  "kind": "real network integration",
+  "cases": [
+    {
+      "url": "https://huggingface.co/distilbert/distilroberta-base",
+      "question": "What purpose is this checkpoint designed for?",
+      "expected": [
+        "mask",
+        "fill-mask"
+      ],
+      "paths": [
+        "model_metadata",
+        "README.md",
+        "config.json",
+        "dict.txt",
+        "tokenizer_config.json",
+        "github/repository.json",
+        "github/README.md",
+        "github/benchmark/README.md",
+        "github/benchmark/requirements.txt",
+        "github/benchmark_v2/README.md",
+        "github/benchmark_v2/requirements.txt",
+        "github/docker/README.md",
+        "github/docs/README.md",
+        "github/examples/generate/continuous_batching.py",
+        "github/examples/generate/continuous_batching_simple.py",
+        "github/examples/generate/transformers_serve_cb_eval_job.py",
+        "github/examples/modular-transformers/README.md",
+        "github/examples/modular-transformers/configuration_dummy.py",
+        "github/examples/modular-transformers/configuration_duplicated_method.py",
+        "github/examples/modular-transformers/configuration_my_new_model.py",
+        "github/examples/modular-transformers/configuration_my_new_model2.py",
+        "github/examples/modular-transformers/configuration_new_model.py",
+        "github/examples/modular-transformers/configuration_super.py",
+        "github/examples/modular-transformers/image_processing_new_imgproc_model.py",
+        "github/examples/modular-transformers/modeling_add_function.py",
+        "github/examples/modular-transformers/modeling_dummy_bert.py",
+        "github/examples/modular-transformers/modeling_from_uppercase_model.py",
+        "github/examples/modular-transformers/modeling_global_indexing.py",
+        "github/examples/modular-transformers/modeling_multimodal2.py",
+        "github/examples/modular-transformers/modeling_my_new_model2.py",
+        "github/examples/modular-transformers/modeling_new_task_model.py",
+        "github/examples/modular-transformers/modeling_roberta.py",
+        "github/examples/modular-transformers/modeling_super.py",
+        "github/examples/modular-transformers/modeling_switch_function.py",
+        "github/examples/modular-transformers/modeling_test_detr.py",
+        "github/examples/modular-transformers/modeling_test_suffix.py",
+        "github/examples/modular-transformers/modular_add_function.py",
+        "github/examples/modular-transformers/modular_dummy_bert.py",
+        "github/examples/modular-transformers/modular_duplicated_method.py",
+        "github/examples/modular-transformers/modular_from_uppercase_model.py",
+        "github/examples/modular-transformers/modular_global_indexing.py",
+        "github/examples/modular-transformers/modular_multimodal2.py",
+        "github/examples/modular-transformers/modular_my_new_model.py",
+        "github/examples/modular-transformers/modular_my_new_model2.py",
+        "github/examples/modular-transformers/modular_new_imgproc_model.py",
+        "github/examples/modular-transformers/modular_new_model.py",
+        "framework_docs/transformers/installation",
+        "framework_docs/transformers/setup.py",
+        "framework_docs/pytorch/installation",
+        "framework_docs/pytorch/setup.py",
+        "framework_docs/tensorflow/installation",
+        "framework_docs/jax/installation",
+        "framework_docs/jax/setup.py"
+      ],
+      "github_paths": [
+        "github/repository.json",
+        "github/README.md",
+        "github/benchmark/README.md",
+        "github/benchmark/requirements.txt",
+        "github/benchmark_v2/README.md",
+        "github/benchmark_v2/requirements.txt",
+        "github/docker/README.md",
+        "github/docs/README.md",
+        "github/examples/generate/continuous_batching.py",
+        "github/examples/generate/continuous_batching_simple.py",
+        "github/examples/generate/transformers_serve_cb_eval_job.py",
+        "github/examples/modular-transformers/README.md",
+        "github/examples/modular-transformers/configuration_dummy.py",
+        "github/examples/modular-transformers/configuration_duplicated_method.py",
+        "github/examples/modular-transformers/configuration_my_new_model.py",
+        "github/examples/modular-transformers/configuration_my_new_model2.py",
+        "github/examples/modular-transformers/configuration_new_model.py",
+        "github/examples/modular-transformers/configuration_super.py",
+        "github/examples/modular-transformers/image_processing_new_imgproc_model.py",
+        "github/examples/modular-transformers/modeling_add_function.py",
+        "github/examples/modular-transformers/modeling_dummy_bert.py",
+        "github/examples/modular-transformers/modeling_from_uppercase_model.py",
+        "github/examples/modular-transformers/modeling_global_indexing.py",
+        "github/examples/modular-transformers/modeling_multimodal2.py",
+        "github/examples/modular-transformers/modeling_my_new_model2.py",
+        "github/examples/modular-transformers/modeling_new_task_model.py",
+        "github/examples/modular-transformers/modeling_roberta.py",
+        "github/examples/modular-transformers/modeling_super.py",
+        "github/examples/modular-transformers/modeling_switch_function.py",
+        "github/examples/modular-transformers/modeling_test_detr.py",
+        "github/examples/modular-transformers/modeling_test_suffix.py",
+        "github/examples/modular-transformers/modular_add_function.py",
+        "github/examples/modular-transformers/modular_dummy_bert.py",
+        "github/examples/modular-transformers/modular_duplicated_method.py",
+        "github/examples/modular-transformers/modular_from_uppercase_model.py",
+        "github/examples/modular-transformers/modular_global_indexing.py",
+        "github/examples/modular-transformers/modular_multimodal2.py",
+        "github/examples/modular-transformers/modular_my_new_model.py",
+        "github/examples/modular-transformers/modular_my_new_model2.py",
+        "github/examples/modular-transformers/modular_new_imgproc_model.py",
+        "github/examples/modular-transformers/modular_new_model.py"
+      ],
+      "official_framework_paths": [
+        "framework_docs/transformers/installation",
+        "framework_docs/transformers/setup.py",
+        "framework_docs/pytorch/installation",
+        "framework_docs/pytorch/setup.py",
+        "framework_docs/tensorflow/installation",
+        "framework_docs/jax/installation",
+        "framework_docs/jax/setup.py"
+      ],
+      "framework_compatibility": [
+        "SUPPORTED_PYTHON_VERSIONS = (10, 14) (CPython 3.10 through 3.14)",
+        "\"GitPython<3.1.19\",",
+        "\"python>=3.10.0\",",
+        "python>=3.12",
+        "\"torch>=2.6\",",
+        "huggingface-hub",
+        "ml_dtypes",
+        "opt_einsum",
+        "scipy",
+        "ml_dtypes>=0.5.0",
+        "numpy>=2.2",
+        "scipy>=1.15"
+      ],
+      "task": "fill-mask",
+      "result_fields": [
+        "document_evidence",
+        "document_evidence",
+        "document_evidence"
+      ],
+      "retrieved_evidence": "- **Hardware Type:** More information needed - **Hours used:** More information needed - **Cloud Provider:** More information needed - **Compute Region:** More information needed - **Carbon Emitted:** More information needed\nIt's a Jupyter notebook environment that requires no setup to use and runs entirely in the cloud.\nYou should be able to use them for tasks that only need CPU.",
+      "probes": {
+        "Which dependencies are documented?": {
+          "fields": [
+            "dependencies",
+            "dependencies"
+          ],
+          "evidence": "datasets\ntransformers"
+        },
+        "How is the model loaded?": {
+          "fields": [
+            "loading_methods",
+            "document_evidence"
+          ],
+          "evidence": "Repository provides a model loading example.\nThe code from the `modular` file and the class dependency mapping are \"merged\" to produce the single model single file."
+        },
+        "How is inference performed?": {
+          "fields": [
+            "inference_methods",
+            "document_evidence"
+          ],
+          "evidence": "Repository provides an inference example.\n<h3 align=\"center\"> <p>State-of-the-art pretrained models for inference and training</p> </h3>"
+        },
+        "What hardware is required?": {
+          "fields": [
+            "gpu_cpu_requirements",
+            "document_evidence"
+          ],
+          "evidence": "- dockerfiles (ex: `consistency.dockerfile`) present under `~/docker` are used for our \"fast\" CIs. You should be able to use them for tasks that only need CPU. For example `torch-light` is a very light weights container (703MiB).\n- **Hardware Type:** More information needed - **Hours used:** More information needed - **Cloud Provider:** More information needed - **Compute Region:** More information needed - **Carbon Emitted:** More information needed"
+        },
+        "What is the weather forecast?": {
+          "fields": [],
+          "evidence": ""
+        }
+      },
+      "pass": false
+    },
+    {
+      "url": "https://huggingface.co/openai/whisper-tiny",
+      "question": "Can it turn spoken audio into written words?",
+      "expected": [
+        "speech recognition",
+        "transcrib"
+      ],
+      "paths": [
+        "model_metadata",
+        "README.md",
+        "config.json",
+        "generation_config.json",
+        "preprocessor_config.json",
+        "tokenizer_config.json",
+        "github/repository.json",
+        "github/README.md",
+        "github/data/README.md",
+        "github/model-card.md",
+        "github/pyproject.toml",
+        "github/requirements.txt",
+        "framework_docs/transformers/installation",
+        "framework_docs/transformers/setup.py",
+        "framework_docs/pytorch/installation",
+        "framework_docs/pytorch/setup.py",
+        "framework_docs/tensorflow/installation",
+        "framework_docs/jax/installation",
+        "framework_docs/jax/setup.py"
+      ],
+      "github_paths": [
+        "github/repository.json",
+        "github/README.md",
+        "github/data/README.md",
+        "github/model-card.md",
+        "github/pyproject.toml",
+        "github/requirements.txt"
+      ],
+      "official_framework_paths": [
+        "framework_docs/transformers/installation",
+        "framework_docs/transformers/setup.py",
+        "framework_docs/pytorch/installation",
+        "framework_docs/pytorch/setup.py",
+        "framework_docs/tensorflow/installation",
+        "framework_docs/jax/installation",
+        "framework_docs/jax/setup.py"
+      ],
+      "framework_compatibility": [
+        "SUPPORTED_PYTHON_VERSIONS = (10, 14) (CPython 3.10 through 3.14)",
+        "\"GitPython<3.1.19\",",
+        "\"python>=3.10.0\",",
+        "python>=3.12",
+        "\"torch>=2.6\",",
+        "huggingface-hub",
+        "ml_dtypes",
+        "opt_einsum",
+        "ml_dtypes>=0.5.0",
+        "numpy>=2.2",
+        "scipy>=1.15"
+      ],
+      "task": "automatic-speech-recognition",
+      "result_fields": [
+        "document_evidence",
+        "document_evidence",
+        "document_evidence"
+      ],
+      "retrieved_evidence": "For speech translation, the model predicts transcriptions to a *different* language to the audio.\nFor speech recognition, the model predicts transcriptions in the *same* language as the audio.\nPre-process the audio inputs (converting them to log-Mel spectrograms for the model) 2.",
+      "probes": {
+        "Which dependencies are documented?": {
+          "fields": [
+            "dependencies",
+            "dependencies"
+          ],
+          "evidence": "transformers\ntorch"
+        },
+        "How is the model loaded?": {
+          "fields": [
+            "loading_methods",
+            "model_type"
+          ],
+          "evidence": "Repository provides a model loading example.\nwhisper"
+        },
+        "How is inference performed?": {
+          "fields": [
+            "inference_methods",
+            "document_evidence"
+          ],
+          "evidence": "Repository provides an inference example.\nThe model is informed of which task to perform (transcription or translation) by passing the appropriate \"context tokens\"."
+        },
+        "What hardware is required?": {
+          "fields": [
+            "gpu_cpu_requirements",
+            "architecture"
+          ],
+          "evidence": "| Size | Parameters | English-only model | Multilingual model | Required VRAM | Relative speed |\n['WhisperForConditionalGeneration']"
+        },
+        "What is the weather forecast?": {
+          "fields": [],
+          "evidence": ""
+        }
+      },
+      "pass": true
+    },
+    {
+      "url": "https://huggingface.co/google/vit-base-patch16-224",
+      "question": "Can I provide a photograph and receive a category?",
+      "expected": [
+        "image classification",
+        "image-classification"
+      ],
+      "paths": [
+        "model_metadata",
+        "README.md",
+        "config.json",
+        "preprocessor_config.json",
+        "github/repository.json",
+        "github/README.md",
+        "github/setup.py",
+        "github/vit_jax/configs/README.md",
+        "github/vit_jax/requirements.txt",
+        "framework_docs/transformers/installation",
+        "framework_docs/transformers/setup.py",
+        "framework_docs/pytorch/installation",
+        "framework_docs/pytorch/setup.py",
+        "framework_docs/tensorflow/installation",
+        "framework_docs/jax/installation",
+        "framework_docs/jax/setup.py"
+      ],
+      "github_paths": [
+        "github/repository.json",
+        "github/README.md",
+        "github/setup.py",
+        "github/vit_jax/configs/README.md",
+        "github/vit_jax/requirements.txt"
+      ],
+      "official_framework_paths": [
+        "framework_docs/transformers/installation",
+        "framework_docs/transformers/setup.py",
+        "framework_docs/pytorch/installation",
+        "framework_docs/pytorch/setup.py",
+        "framework_docs/tensorflow/installation",
+        "framework_docs/jax/installation",
+        "framework_docs/jax/setup.py"
+      ],
+      "framework_compatibility": [
+        "SUPPORTED_PYTHON_VERSIONS = (10, 14) (CPython 3.10 through 3.14)",
+        "\"GitPython<3.1.19\",",
+        "\"python>=3.10.0\",",
+        "python>=3.12",
+        "\"torch>=2.6\",",
+        "huggingface-hub",
+        "ml_dtypes",
+        "opt_einsum",
+        "ml_dtypes>=0.5.0",
+        "numpy>=2.2",
+        "scipy>=1.15"
+      ],
+      "task": "image-classification",
+      "result_fields": [
+        "limitations",
+        "document_evidence",
+        "document_evidence"
+      ],
+      "retrieved_evidence": "You can use the raw model for image classification.\n--- license: apache-2.0 tags: - vision - image-classification datasets: - imagenet-1k - imagenet-21k widget: - src: https://huggingface.co/datasets/mishig/sample_images/resolve/main/tiger.jpg example_title: Tiger - src: https://huggingface.co/datasets/mishig/sample_images/resolve/main/teapot.jpg example_title: Teapot - src: https://huggingface.co/datasets/mishig/sample_images/resolve/main/palace.jpg example_title: Palace ---\nHere is how to use this model to classify an image of the COCO 2017 dataset into one of the 1,000 ImageNet classes:",
+      "probes": {
+        "Which dependencies are documented?": {
+          "fields": [
+            "dependencies",
+            "dependencies"
+          ],
+          "evidence": "requests\nPIL"
+        },
+        "How is the model loaded?": {
+          "fields": [
+            "loading_methods",
+            "model_type"
+          ],
+          "evidence": "Repository provides a model loading example.\nvit"
+        },
+        "How is inference performed?": {
+          "fields": [
+            "inference_methods",
+            "model_specific_requirements"
+          ],
+          "evidence": "Repository provides an inference example.\nrequests"
+        },
+        "What hardware is required?": {
+          "fields": [
+            "gpu_cpu_requirements",
+            "document_evidence"
+          ],
+          "evidence": "- Different models require different amount of memory. Available memory also\nCUDA NVIDIA Spark (ARM64) CPU Intel GPU (XPU) To install Transformers with PyTorch for NVIDIA GPU (CUDA), install the appropriate CUDA drivers for PyTorch ."
+        },
+        "What is the weather forecast?": {
+          "fields": [
+            "warnings"
+          ],
+          "evidence": "Open source release prepared by Andreas Steiner."
+        }
+      },
+      "pass": true
+    }
+  ]
+}

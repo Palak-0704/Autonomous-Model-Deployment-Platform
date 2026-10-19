@@ -1,0 +1,42 @@
+
+# Python environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# Colab Sync and deployment artifacts
+.colabsync/
+deployment_sessions/
+deployment_reports/
+
+# Local RAG documents and caches
+Rag/documents/
+.cache/
+cache/
+hf_cache/
+models/
+
+# Model weights
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.gguf
+
+# Logs and generated files
+*.log
+.ipynb_checkpoints/
+.DS_Store

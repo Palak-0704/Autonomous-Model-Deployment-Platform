@@ -1,0 +1,4 @@
+requests>=2.31.0
+gradio>=4.0.0
+sentence-transformers>=3.0.0
+packaging
